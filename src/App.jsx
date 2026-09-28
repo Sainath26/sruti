@@ -59,7 +59,7 @@ const schedules = [
     day: "Saturdays",
     time: "15.30-16.30hrs",
     age: "Children & Adults",
-    countries: "UK",
+    countries: "St. Aidans Community Centre, Princes Rd,\nNewcastle upon Tyne\nNE3 5TT, UK",
   },
   {
     name: "Dharma Sundays",
@@ -240,7 +240,7 @@ function App() {
                     <td>{session.day}</td>
                     <td>{session.time}</td>
                     <td>{session.age}</td>
-                    <td>{session.countries}</td>
+                    <td className="td-countries">{session.countries}</td>
                   </tr>
                 ))}
               </tbody>

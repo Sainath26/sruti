@@ -472,6 +472,11 @@ p {
   font-weight: 800;
 }
 
+.td-countries {
+  white-space: pre-line;
+  max-width: 220px;
+}
+
 .session-type {
   display: inline-flex;
   align-items: center;
